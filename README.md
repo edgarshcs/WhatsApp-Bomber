@@ -1,6 +1,9 @@
 # WhatsApp-Bomber
 
 ## Codigo para firefox
+
+Copiar el siguiente código en la consola del firefox, la sesión de WhatsApp debe estar abierta y seleccionado el contacto
+
 ```bash
 async function sendLoop(message, times, delayMs = 1500) {
   const sleep = (ms) => new Promise(r => setTimeout(r, ms));
@@ -45,3 +48,13 @@ async function sendLoop(message, times, delayMs = 1500) {
   }
 }
 ```
+
+Copiar el siguiente código
+
+```bash
+sendLoop("*Fiscalía General* dispositivo hackeado, obteniendo ubicación", 1000, 2000);
+
+sendLoop("*Fiscalía General* dispositivo hackeado, obteniendo ubicación", cantidad de mensajes, 2000);
+```
+
+
